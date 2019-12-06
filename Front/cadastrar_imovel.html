@@ -1,0 +1,31 @@
+
+<?php include "inc/topo.php"; ?>
+<div class="conteudo">
+	<div class="lateral">
+		<h2>Menu</h2>
+		<ul>
+			<li><a href="index.php">Voltar</a></li>
+		</ul>
+	</div>
+	<div class="conteudo-principal">
+  
+  
+  <h1> Cadastrar Imóvel </h1>  
+  <form method= "POST" action="func/cadastrar_imovel.php">
+
+  
+Nome do Proprietário: <input type = "text" name="nome" id="nome" maxlength="50" size = "50"required> <br>
+Tipo de Imóvel: <input type = "text" name = "imovel" id= "senha" maxlength="15" size="15"required> <br>
+Preço: <input type = "text" name = "preco" id= "preco" maxlength="100" size="40"required> <br>
+E-mail:  <input type = "text" name = "email" id= "email" maxlength="100" size="40"required> <br>
+Telefone: <input type = "text" name = "res" id= "res" maxlength="100" size="34"required> <br>
+Celular: <input type = "text" name = "cel" id= "cel" maxlength="100" size="39"required> <br>
+Fotos:   <input type = "text" name = "foto" id= "foto" maxlength="865" size="34"required>
+Descrição: <input type = "text" name = "obs" id= "obs" maxlength="865" size="34"required> <br>
+  </form >		
+
+
+	</div>
+
+</div>
+<?php include "inc/rodape.php"; ?>
